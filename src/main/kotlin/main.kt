@@ -11,7 +11,7 @@ const val limitMonthCard = 600_000
 const val limitMonthVK = 40_000
 
 fun main() {
-    val sumTransfer = 25_054
+    val sumTransfer = 25_000
     val typeCard = 2
     val amount = 270_000
     val commission = transfer(typeCard, amount, sumTransfer)
@@ -49,11 +49,9 @@ fun transfer(Card: Int = VK_pay, amountAll: Int = 0, sum: Int): String {
     val strValue: String = if (!success) {
         "-1"
     } else {
-        //commission.toString()
         String.format("%.2f", commission)
     }
-    //return strValue.replace(',', '.')
-    return strValue
+    return strValue.replace(',', '.')
 }
 
 fun checkLimitCard(sum: Int, amount: Int): Boolean {

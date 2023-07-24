@@ -17,7 +17,7 @@ class MainKtTest {
             amountAll = amount,
             sum = sumTransfer
         )
-        assertEquals("187,50", result)
+        assertEquals("187.50", result)
     }
 
     @Test
@@ -31,7 +31,7 @@ class MainKtTest {
             amountAll = amount,
             sum = sumTransfer
         )
-        assertEquals("35,00", result)
+        assertEquals("35.00", result)
     }
 
     @Test
@@ -59,7 +59,7 @@ class MainKtTest {
             amountAll = amount,
             sum = sumTransfer
         )
-        assertEquals("530,00", result)
+        assertEquals("530.00", result)
     }
 
     @Test
@@ -73,7 +73,7 @@ class MainKtTest {
             amountAll = amount,
             sum = sumTransfer
         )
-        assertEquals("0,00", result)
+        assertEquals("0.00", result)
     }
 
     @Test
@@ -101,7 +101,7 @@ class MainKtTest {
             amountAll = amount,
             sum = sumTransfer
         )
-        assertEquals("0,00", result)
+        assertEquals("0.00", result)
     }
 
     @Test
@@ -143,7 +143,7 @@ class MainKtTest {
             amountAll = amount,
             sum = sumTransfer
         )
-        assertEquals("0,00", result)
+        assertEquals("0.00", result)
     }
 
     @Test
